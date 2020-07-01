@@ -48,7 +48,7 @@
 
 <div class="container-fluid text-center">
     <div class="row content">
-        <div class="col-sm-2 sidenav">
+        <div class="sidenav">
             <h2>General Links</h2>
             <p>
                 <btn class="btn btn-danger"><a href="#">UROP</a></btn>
@@ -78,7 +78,7 @@
                 <br line-height="20px;">
 
         </div>
-        <div class="col-sm-8 text-left">
+        <div class="col">
             <h1>Welcome</h1>
             <p>My name is Jason Lu (陆俊雄)</p>
 
@@ -90,6 +90,30 @@
             </div>
 
             <hr>
+
+            <h2>Featured Projects: </h2>
+            <br>
+            <a id = "featured" href="http://localhost:63342/Personal-Webpage/featured/code.html?_ijt=t25p973s8jhpauprl404bnsncj">
+                go.py (围棋)
+            </a>
+            <br>
+            Classic Chinese board game, uses recursion and linear algebra well
+            <br>
+            Skins: {Valentine's Day, Boston University, Classic, Hardwood, St. Patrick's, Sports}
+            <br>
+            <a id = "featured2" href="#">hanoi.py</a>
+            <br>
+            Famous Hanoi Tower Problem, with recursion and memoization
+            <br>
+            <a id = "featured3" href="#">WA Menu</a>
+            <br>
+            Worcester Academy High School Graduation Project (Capstone)
+            <br>
+            <!-- Jesus and I Git Repo for Stablr -->
+            <a id = "featured4" href="https://github.com/jesusfranco1/Stablr">Stablr</a>
+            <br>
+            A "dating app" using Gale-Shapley Stable Matching Algorithm
+            <br>
 
             <div class="container">
                 <h2>Highlights</h2>
@@ -193,40 +217,62 @@
             <!-- Group sections by 2, with large buttons -->
 
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <button type="button" class="btn btn-danger">About Me
                     </button>
                     <!-- Form to go the CS 105 Projects Page -->
                     <form action="#">
                         <input type="submit" value="Know More..."/>
                     </form>
+                    <br>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <!-- Form to go to CS 108 Projects Page -->
                     <button type="button" class="btn btn-warning">Coursework
                     </button>
                     <form action="#">
                         <input type="submit" value="Know More..."/>
                     </form>
+                    <br>
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- Form to go to CS 108 Projects Page -->
+                    <button id = "yellow" type="button" class="btn btn-secondary">Research
+                    </button>
+                    <form action="#">
+                        <input type="submit" value="Know More..."/>
+                    </form>
+                    <br>
                 </div>
             </div>
 
             <hr>
 
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <!-- Form to go to CS 111 Projects Page -->
-                    <button type="button" class="btn btn-primary">Programming Languages
+                    <button type="button" class="btn btn-success">Programming Languages
                     </button>
                     <form action="#">
                         <input type="submit" value="Know More..."/>
                     </form>
+                    <br>
                 </div>
 
                 <!-- Form to go to CS 112 Projects Page -->
-                <div class="col-md-3">
-                    <button type="button" class="btn btn-info">Social Media
+                <div class="col-lg-4">
+                    <button type="button" class="btn btn-primary">Social Media
+                    </button>
+                    <form action="#">
+                        <input type="submit" value="Know More..."/>
+                    </form>
+                    <br>
+                </div>
+
+                <div class="col-lg-4">
+                    <button type="button" class="btn btn-info">Organizations
                     </button>
                     <form action="#">
                         <input type="submit" value="Know More..."/>
@@ -239,9 +285,9 @@
             <hr>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-4">
                     <!-- Form to go to CS 132 Projects Page -->
-                    <button class="btn btn-default">Internship / Co-op Work
+                    <button id = "violet" class="btn btn-default">Internship / Co-op Work
                     </button>
                     <form action="#">
                         <input type="submit" value="Know More..."/>
@@ -250,9 +296,19 @@
                 </div>
 
                 <!-- Form to go to CS 210 Projects Page -->
-                <div class="col-md-3">
+                <div class="col-lg-4">
                     <!-- Form to go to CS 132 Projects Page -->
-                    <button class="btn btn-success">Personal Projects
+                    <button id="light" class="btn btn-default">Personal Projects
+                    </button>
+                    <form action="#">
+                        <input type="submit" value="Know More..."/>
+                    </form>
+                    <br>
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- Form to go to CS 132 Projects Page -->
+                    <button id="dark" class="btn btn-default">Contacts
                     </button>
                     <form action="#">
                         <input type="submit" value="Know More..."/>
@@ -263,23 +319,6 @@
             </div>
 
             <hr>
-
-            <h2>Personal Projects:</h2>
-            <br>
-            <form action="">go.py (围棋)</form>
-            <br>
-            Classic Chinese board game, uses recursion and linear algebra well
-            <br>
-            Skins: {Valentine's Day, Boston University, Classic, Hardwood, St. Patrick's, Sports}
-            <br>
-            <form action="">hanoi.py</form>
-            Famous Hanoi Tower Problem, with recursion and memoization
-            <br>
-            <form action="">WA Menu</form>
-            Worcester Academy High School Graduation Project (Capstone)
-            <!-- Jesus and I Git Repo for Stablr -->
-            <form action="">Stablr</form>
-            A "dating app" using Gale-Shapley Stable Matching Algorithm
 
         </div>
     </div>
@@ -289,7 +328,7 @@
 </div>
 
 <footer class="container-fluid text-center">
-    <p><a href="">Made with Bootstrap and React</a></p>
+    <p>Made with Bootstrap and React</p>
     <p>Copyright &copy; Jason Lu 2020. All Rights Reserved.</p>
 </footer>
 

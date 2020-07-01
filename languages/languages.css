@@ -27,7 +27,7 @@ footer {
 }
 
 a {
-    color: white;
+    color: teal;
 }
 
 a#featured {
@@ -59,6 +59,8 @@ a#featured4 {
 
 .carousel-caption {
     background-color: rgba(0,0,0,0.75);
+    color: white;
+    border: white solid 1px;
 }
 
 .btn#silver {
@@ -89,3 +91,33 @@ a#featured4 {
     background-color: dimgrey;
     color: white;
 }
+
+.hr {
+    color: dimgrey;
+    width: 3px;
+}
+
+.card-python {
+    background-color: rgba(255,0,0,0.7);
+    color: white;
+    margin: auto;
+}
+
+.card-c {
+    background-color: darkgreen;
+    color: white;
+    margin: auto;
+}
+
+.card-html {
+    background-color: darkblue;
+    color: white;
+    margin: auto;
+}
+
+.card-cplusplus {
+    background-color: goldenrod;
+    color: white;
+    margin: auto;
+}
+

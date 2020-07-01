@@ -1,10 +1,231 @@
+<!-- Starter code: from w3schools -->
+<!-- Source: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Programming Languages</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="languages.css">
 </head>
 <body>
 
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Jason's Homepage</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="http://localhost:8080/PersonalWebpage/aboutme.html">About</a></li>
+                <!-- languages.html -->
+                <li class="active"><a href="#">Languages</a></li>
+                <li><a href="http://localhost:8080/PersonalWebpage/projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="http://localhost:63342/Personal-Webpage/music.html?_ijt=7hdrbs3e2drtkt3larp1p17aka#">Music</a>
+                </li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+
+        <h1>Here are some of the programming languages and related co-op / internship and
+            academic
+            coursework and research experience I have learned over the years. They are also
+            available
+            on my <a href="Jason_Lu_Resume_2019_2020_Software_Web.pdf">resume</a>.</h1>
+
+        <hr>
+
+        <div class="container">
+            <h2>Languages: </h2>
+            <div id="myCarousel" class="carousel slide img-fluid" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="languages.jpg" alt="Python" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Python</h3>
+                            <p>PyCharm, TensorFlow, NumPy, SciPy, MatPlotLib, Python Graphics,
+                                Jupyter Notebook Python</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="Java" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Java</h3>
+                            <p>SpringBoot, Dr. Java, Java Persistence API, JDBC</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="C" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>C (x86-64 assembly version)</h3>
+                            <p>GDB Debugger, POSIX, Bash / Shell, Threads, I/O,
+                                Distributed Systems</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="Academics" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>HTML</h3>
+                            <p>Bootstrap, W3, Embedded, HTML5, XML, XHTML</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="Coursework" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>CSS</h3>
+                            <p>CSS Design, Responsive Design, Bootstrap, Media Queries,
+                                Column Layouts</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="Internships / Co-ops" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>C++</h3>
+                            <p>Visual Studio, OpenCV, Unity, Namespaces, Objective C</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="Media" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>iOS / Android</h3>
+                            <p>Objective C, Swift, Mobile Applications, User Interfaces ,
+                                UI / UX</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="languages.jpg" alt="Languages" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>MySQL</h3>
+                            <p>sqlite3, MySQL Community, SELECT FROM WHERE querying, RDBMS,
+                                Schemas, Tuples, Tree Structures, Aggregation, Unions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Group sections by 2, with large buttons -->
+
+        <!-- have each individual technology as part of a list -->
+        <!-- credit: https://www.w3schools.com/bootstrap4/bootstrap_list_groups.asp -->
+        <h2>Languages</h2>
+
+        <div class="card-deck">
+            <div class="card-python bg-primary">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Python</h3>
+                </div>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item list-group-item-danger">PyCharm</li>
+                    <li class="list-group-item list-group-item-danger">Tensorflow</li>
+                    <li class="list-group-item list-group-item-danger">NumPy</li>
+                    <li class="list-group-item list-group-item-danger">SciPy</li>
+                    <li class="list-group-item list-group-item-danger">MatPlotLib</li>
+                    <li class="list-group-item list-group-item-danger">Zelle Python Graphics
+                    </li>
+                    <li class="list-group-item list-group-item-danger">Jupyter Notebook
+                        iPython
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card-c bg-warning">
+                <div class="card-body text-center">
+                    <h3 class="card-title">C (x86-64 Assembly)</h3>
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item list-group-item-success">GDB Debugger</li>
+                        <li class="list-group-item list-group-item-success">POSIX</li>
+                        <li class="list-group-item list-group-item-success">Bash / Shell</li>
+                        <li class="list-group-item list-group-item-success">Threads</li>
+                        <li class="list-group-item list-group-item-success">I/O (Synchronization)
+                        </li>
+                        <li class="list-group-item list-group-item-success">Distributed Systems</li>
+                    </ul>
+                </div>
+
+                <!--                <div class="card-html bg-primary">-->
+                <!--                    <div class="card-body text-center">-->
+                <!--                        <h3 class="card-title">HTML</h3>-->
+                <!--                        <div class="card-body"></div>-->
+                <!--                    </div>-->
+                <!--                    <ul class="list-group list-group-horizontal">-->
+                <!--                        <li class="list-group-item list-group-item-icon">Bootstrap</li>-->
+                <!--                        <li class="list-group-item list-group-item-primary">W3</li>-->
+                <!--                        <li class="list-group-item list-group-item-primary">Embedded</li>-->
+                <!--                        <li class="list-group-item list-group-item-primary">HTML5</li>-->
+                <!--                        <li class="list-group-item list-group-item-primary">SEO</li>-->
+                <!--                        <li class="list-group-item list-group-item-primary">XHTML</li>-->
+                <!--                    </ul>-->
+                <!--                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<br>
+
+<!--<footer class="container-fluid text-center">-->
+<!--    <p>Made with Bootstrap and React</p>-->
+<!--    <p>Copyright &copy; Jason Lu 2020. All Rights Reserved.</p>-->
+<!--</footer>-->
+
 </body>
 </html>
+
