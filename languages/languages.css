@@ -114,8 +114,8 @@ a#featured4 {
     margin: auto;
 }
 
-.card-cplusplus {
-    background-color: goldenrod;
+.card-css {
+    background-color: darkorange;
     color: white;
     margin: auto;
 }
@@ -148,4 +148,223 @@ a#featured4 {
 .list-group-item#html6 {
     background-color: aliceblue;
     color: darkblue;
+}
+
+.list-group-item#css {
+    background-color: rgba(253, 227, 167, 1);
+    color: darkorange;
+}
+
+.list-group-item#css2 {
+    background-color: rgba(253, 227, 167, 1);
+    color: darkorange;
+}
+
+.list-group-item#css3 {
+    background-color: rgba(253, 227, 167, 1);
+    color: darkorange;
+}
+
+.list-group-item#css4 {
+    background-color: rgba(253, 227, 167, 1);
+    color: darkorange;
+}
+
+.list-group-item#css5 {
+    background-color: rgba(253, 227, 167, 1);
+    color: darkorange;
+}
+
+.list-group-item#cpp {
+    background-color: 	rgb(175,238,238);
+    color: teal;
+}
+
+.list-group-item#cpp2 {
+    background-color: 	rgb(175,238,238);
+    color: teal;
+}
+
+.list-group-item#cpp3 {
+    background-color: 	rgb(175,238,238);
+    color: teal;
+}
+
+.list-group-item#cpp4 {
+    background-color: 	rgb(175,238,238);
+    color: teal;
+}
+
+.list-group-item#cpp5 {
+    background-color: 	rgb(175,238,238);
+    color: teal;
+}
+
+.card-cpp {
+    background-color: mediumturquoise;
+    color: white;
+}
+
+.list-group-item#ios {
+    background-color: whitesmoke;
+    color: dimgrey;
+}
+
+.list-group-item#ios2 {
+    background-color: whitesmoke;
+    color: dimgrey;
+}
+
+.list-group-item#ios3 {
+    background-color: whitesmoke;
+    color: dimgrey;
+}
+
+.list-group-item#ios4 {
+    background-color: whitesmoke;
+    color: dimgrey;
+}
+
+.list-group-item#ios5 {
+    background-color: whitesmoke;
+    color: dimgrey;
+}
+
+.card-ios {
+    background-color: slategrey;
+    color: white;
+}
+
+.list-group-item#sql {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql2 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql3 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql4 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql5 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql6 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql7 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql8 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.list-group-item#sql9 {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.card-sql {
+    background-color: darkviolet;
+    color: white;
+}
+
+span#badge1 {
+    background-color: darkgreen;
+}
+
+span#badge2 {
+    background-color: darkgreen;
+}
+
+span#badge3 {
+    background-color: darkgreen;
+}
+
+span#badge4 {
+    background-color: darkolivegreen;
+}
+
+span#badge5 {
+    background-color: darkolivegreen;
+}
+
+span#badge6 {
+    background-color: darkolivegreen;
+}
+
+span#badge7 {
+    background-color: lightseagreen;
+}
+
+span#badge8 {
+    background-color: lightseagreen;
+}
+
+span#badge9 {
+    background-color: lightseagreen;
+}
+
+span#badge5 {
+    background-color: darkolivegreen;
+}
+
+span#tech {
+    background-color: darkred;
+}
+
+span#tech2 {
+    background-color: red;
+}
+
+span#tech3 {
+    background-color: orangered;
+}
+
+span#tech4 {
+    background-color: palevioletred;
+}
+
+span#tech5 {
+    background-color: magenta;
+}
+
+span#office {
+    background-color: darkblue;
+}
+
+span#office2 {
+    background-color: blue;
+}
+
+span#office3 {
+    background-color: cornflowerblue;
+}
+
+span#office4 {
+    background-color: dodgerblue;
+}
+
+span#office5 {
+    background-color: deepskyblue;
+}
+
+span#office6 {
+    background-color: lightblue;
 }
