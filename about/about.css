@@ -5,13 +5,21 @@
 	background-repeat: no-repeat;
 	}
 
-	h3.wa {
-	    background-color:rgb(128,0,0);
+	h3#wa {
+	    color:rgb(128,0,0);
+        border: silver double 1px;
 	}
 
-	h3.bu {
+	h3#bu {
 	    color: red;
+        border: black double 1px;
 	}
+
+    h2 {
+        background-color: azure;
+        color: #555555;
+        postion: center;
+    }
 
     h1 {
         color: rgba(255,0,0,0.8);
@@ -29,10 +37,10 @@
         /* Set blue background color and 100% height */
         .sidenav {
           padding-top: 20px;
-          background-color: rgba(255,0,0,0.3);
+          background-color: rgba(245, 171, 53, 0.5);
           /* BU background */
           background-repeat: no-repeat;
-          height: 100%;
+          padding-bottom: 20px;
         }
 
         /* Set black background color, white text and some padding */
