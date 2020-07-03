@@ -9,14 +9,23 @@ h2 {
     color: #555555;
 }
 
+h3 {
+    color: white;
+}
+
+a {
+    color: lightgreen;
+}
+
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
 /* Set blue background color and 100% height */
 .sidenav {
     padding-top: 20px;
-    background-color: rgb(0,0,255);
+    background-color: green;
     height: 100%;
+    padding-bottom: 20px;
 }
 
 /* Set black background color, white text and some padding */
@@ -24,10 +33,6 @@ footer {
     background-color: #555;
     color: white;
     padding: 15px;
-}
-
-a {
-    color: white;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
