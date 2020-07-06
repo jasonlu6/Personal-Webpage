@@ -17,8 +17,24 @@ a {
     color: lightgreen;
 }
 
+a#demaine {
+    color: darkred;
+}
+
+a#employd {
+    color: dodgerblue;
+}
+
+a#filmfinder {
+    color: darkblue;
+}
+
 a#gastroternary {
     color: teal;
+}
+
+a#seedlabs {
+    color: darkgreen;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -72,3 +88,25 @@ footer {
     background-color: dimgray;
     color: white;
 }
+
+
+.btn#elective2 {
+    background-color: dimgray;
+    color: white;
+}
+
+.btn#elective3 {
+    background-color: dimgray;
+    color: white;
+}
+
+.btn#elective4 {
+    background-color: dimgray;
+    color: white;
+}
+
+.btn#elective5 {
+    background-color: dimgray;
+    color: white;
+}
+
