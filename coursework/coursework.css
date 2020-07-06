@@ -17,6 +17,10 @@ a {
     color: lightgreen;
 }
 
+a#gastroternary {
+    color: teal;
+}
+
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
@@ -57,4 +61,14 @@ footer {
 
 .btn#orange {
     background-color: orange;
+}
+
+.btn#coop {
+    background-color: lightgrey;
+    color: white;
+}
+
+.btn#elective {
+    background-color: dimgray;
+    color: white;
 }
