@@ -30,14 +30,14 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="http://localhost:8080/PersonalWebpage/aboutme.html">About</a></li>
+                <!-- languages.html -->
                 <li><a href="#">Languages</a></li>
                 <li><a href="#">Coursework</a></li>
                 <li><a href="http://localhost:8080/PersonalWebpage/projects.html">Projects</a></li>
                 <li><a href="#">Contact</a></li>
-                <li class="active"><a href="#">Work Experience</a></li>
-                <li>
-                    <a href="http://localhost:63342/Personal-Webpage/music.html?_ijt=7hdrbs3e2drtkt3larp1p17aka#">Music</a>
-                </li>
+                <li><a href="#">Work Experience</a></li>
+                <li class="active"><a href="#">Research Experience</a></li>
+                <li><a href="#">Music</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -48,34 +48,80 @@
 </nav>
 
 <div class="container-fluid text-center">
-    <div class="row content">
-        <div class="sidenav">
-            <h1>Here is the research experience, that is listed in my resume.</h1>
-        </div>
-        <hr>
+    <h1>Here is the research experience, that is listed in my resume.</h1>
 
-        <h2>Research Experience: </h2>
+    <h2>Research Experience: </h2>
 
-        <div class="accordion btn-danger">
-            <h4>Boston University UROP</h4>
-            <h4>Undergraduate Research Opportunity Programs</h4>
-            <h4>PI: Professor Douglas Densmore</h4>
-        </div>
-
-        <h2>Research Projects: </h2>
-
-
-
-        <footer class="container-fluid text-center">
-            <p>Made with Bootstrap and React</p>
-            <p>Copyright &copy; Jason Lu 2020. All Rights Reserved.</p>
-        </footer>
+    <div class="accordion btn-danger">
+        <h4>Boston University UROP</h4>
+        <h4>Undergraduate Research Opportunity Programs</h4>
+        <h4>PI: Professor Douglas Densmore</h4>
     </div>
+
+    <h2>Research Projects: </h2>
+
+    <h4>TECAN to ECHO converter: </h4>
+    <h4>May 2017 – Oct 2017</h4>
+
+    <h4>Abstract: </h4>
+
+    <p>The full research project is in a Github directory, private, by request.</p>
+
+    <div class="abstract container">
+        Bioinformatics is the interdisciplinary study of computer science, mathematics, and
+        molecular biology, which requires programming, mathematical modeling, and experimental
+        analysis. Sponsored by CIDAR Lab and STEM Pathways, the TECAN Freedom 150 to ECHO 550
+        conversion uses bioinformatics to automate script conversions between these two robots.
+        Currently, the CIDAR Lab uses the MoClo Assembly bio tool to generate TECAN scripts in
+        order to automate robot pipetting; however, the tool lacks the capability of generating
+        other robot scripts. The ECHO robot has several advantages over the TECAN robot. For
+        example, the TECAN robot requires higher resource consumption than the considerably more
+        efficient ECHO robot.
+        Written in the Python programming language, the conversion tool reads the TECAN script
+        in a text file and writes the corresponding ECHO script in an Excel CSV file. The tool
+        is interchangeable; it converts the ECHO script back to TECAN. Should an error occur
+        during the liquid handling process, the conversion tool has an email system to inform
+        the researcher of such error.
+        The Python conversion tool will allow researchers to have flexibility. Since the CIDAR
+        Lab requires a tool that will increase variability with automated scripting, the
+        conversion tool will be crucial to maintaining sound research in synthetic biology for
+        the future.
+    </div>
+
+    <div class="container">
+        <h4>General description of project: </h4>
+        <p>
+            I implemented a Python program to convert input TECAN script into corresponding ECHO
+            output script. Within the program, we made a design choice to have an email system
+            that notified researcher quickly to reduce error in conversion. The program managed
+            to reduce resource consumption by about 50%, which led to significant research
+            efficiency.
+        </p>
+    </div>
+
+    <h4>Clotho Web Server</h4>
+    <h4>Mar 2017 – Aug 2017</h4>
+
+    <p>The full research project is in a Github directory, private, by request.
+        Also worked with two undergrads from BU on this project, with other university
+        grad student PIs and professors. <strong>Clotho</strong> is the name for the bioinformatics
+        inventory for the project.</p>
+
+    <div class="abstract container">
+        I programmed a bioinformatics inventory using Python for DNA research samples. The
+        project, supervised by my fellow BU classmates David Tran and Jacob Kozol, helped raise
+        research productivity for laboratory for past 2 years As a final deliverable, we
+        presented the project as a slide deck presentation in a graduate team of 5 to Professor
+        Densmore's lab, as a training module before starting the full-time research with CIDAR
+        Lab for Summer 2017. Written in Java Persistence API, mainly in Java.
+    </div>
+    <br>
+
+    <footer class="container-fluid text-center">
+        <p>Made with Bootstrap and React</p>
+        <p>Copyright &copy; Jason Lu 2020. All Rights Reserved.</p>
+    </footer>
 </div>
-
-<hr>
-
-<br>
 
 </body>
 </html>

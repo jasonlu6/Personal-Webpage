@@ -1,0 +1,32 @@
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.h1 {
+    color: blue;
+}
+
+.h1#smosh{
+    color: orange;
+}
+
+.h1#piano {
+    color: green;
+}
+
+.h1#choir{
+    color: red;
+}
+
+.code {
+    font-family: Courier, serif;
+    font-color: green;
+}
+
+.music {
+    background-color: whitesmoke;
+    position: center;
+}
