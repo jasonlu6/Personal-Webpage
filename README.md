@@ -11,4 +11,6 @@ Credit to Professor Aaron Stevens (from CS 108), Professor Snyder (CS 112)
 and Professor Donham (CS 411) for teaching me the apps skills and the design
 required to get my own webpage. 
 
+In addition credit to Professor Jose Annunziato (CVS 5610) for teaching me responsive 
+design and React plugins to make the website even more advanced! 
 
