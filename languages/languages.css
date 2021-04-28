@@ -280,9 +280,44 @@ a#featured4 {
     color: blueviolet;
 }
 
+.list-group-item#ts {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
+.list-group-item#ts2 {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
+.list-group-item#ts3 {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
+.list-group-item#ts4 {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
+.list-group-item#ts5 {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
+.list-group-item#ts6 {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
 .card-sql {
     background-color: darkviolet;
     color: white;
+}
+
+.card-typescript {
+    background-color: darkgoldenrod;
+    color: yellow;
 }
 
 span#badge1 {

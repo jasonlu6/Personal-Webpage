@@ -17,6 +17,10 @@ a {
     color: lightgreen;
 }
 
+a#airpriori {
+    color: seagreen;
+}
+
 a#demaine {
     color: darkred;
 }
@@ -31,6 +35,10 @@ a#filmfinder {
 
 a#gastroternary {
     color: teal;
+}
+
+a#plagewatch {
+    color: darkblue;
 }
 
 a#seedlabs {
