@@ -15,6 +15,11 @@
         border: black double 1px;
 	}
 
+    h3#neu {
+        color: dimgrey;
+        border: lightgray double 1px;
+    }
+
     h2 {
         background-color: azure;
         color: #555555;
